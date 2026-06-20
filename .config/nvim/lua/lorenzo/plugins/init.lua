@@ -1,0 +1,5 @@
+require("lorenzo.plugins.telescope")
+require("lorenzo.plugins.colorscheme")
+require("lorenzo.plugins.treesitter")
+require("lorenzo.plugins.lualine")
+require("lorenzo.plugins.lsp")
