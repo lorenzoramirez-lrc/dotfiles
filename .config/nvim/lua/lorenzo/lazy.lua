@@ -22,7 +22,14 @@ local plugins = {
 		'nvim-telescope/telescope.nvim', 
 		tag = '0.1.5',
 		dependencies = { {'nvim-lua/plenary.nvim'}}
-	},
+    },
+    {
+        "hrsh7th/nvim-cmp",
+        dependencies = {
+            "hrsh7th/cmp-nvim-lsp",
+            "L3MON4D3/LuaSnip",
+        },
+    },
 	{
 		'nvim-treesitter/nvim-treesitter',
 		branch = 'master', 

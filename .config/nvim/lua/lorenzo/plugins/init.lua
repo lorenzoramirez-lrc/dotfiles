@@ -1,4 +1,5 @@
 require("lorenzo.plugins.telescope")
+require("lorenzo.plugins.autocomplete")
 require("lorenzo.plugins.colorscheme")
 require("lorenzo.plugins.treesitter")
 require("lorenzo.plugins.lualine")
