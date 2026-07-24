@@ -15,8 +15,13 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-    { "Mofiqul/dracula.nvim", name = "dracula", priority = 1000,},
-	{ "rose-pine/neovim", name = "rose-pine", priority=1000},
+    {
+        "oskarnurm/koda.nvim",
+        lazy = false, -- make sure we load this during startup if it is your main colorscheme
+        priority = 1000, -- make sure to load this before all the other start plugins
+        config = function()
+        end,
+    },
     { "lervag/vimtex", lazy = false },
 	{
 		'nvim-telescope/telescope.nvim', 

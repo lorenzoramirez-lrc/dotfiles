@@ -10,7 +10,7 @@ git_branch() {
   [[ -n $branch ]] && echo "($branch)"
 }
 
-PROMPT='%F{117}%1~%f %F{114}$(git_branch)%f ❯ '
+PROMPT='%F{244}%1~%f %F{115}$(git_branch)%f ❯ '
 
-export LS_COLORS="di=1;38;5;75:ex=1;38;5;114"
+export LS_COLORS="di=1;38;5;186:ex=1;38;5;115"
 
