@@ -35,13 +35,13 @@ local plugins = {
             "L3MON4D3/LuaSnip",
         },
     },
-	{
-		'nvim-treesitter/nvim-treesitter',
-		branch = 'master', 
-		build = ':TSUpdate',
-	},
-	'nvim-tree/nvim-web-devicons',
-	'nvim-lualine/lualine.nvim',
+    {
+        'nvim-treesitter/nvim-treesitter',
+        lazy = false,
+        build = ':TSUpdate'
+    },
+    'nvim-tree/nvim-web-devicons',
+    'nvim-lualine/lualine.nvim',
     {
         "neovim/nvim-lspconfig",
     },
