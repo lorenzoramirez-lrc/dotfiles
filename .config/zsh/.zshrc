@@ -1,5 +1,5 @@
 alias vim='nvim'
-alias draw='open -a lorien'
+alias draw='open http://excalidraw.com'
 alias ls='ls --color=auto'
 
 setopt HIST_IGNORE_ALL_DUPS
