@@ -16,16 +16,17 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
     {
-        "oskarnurm/koda.nvim",
-        lazy = false, -- make sure we load this during startup if it is your main colorscheme
-        priority = 1000, -- make sure to load this before all the other start plugins
-        config = function()
-        end,
+        "rebelot/kanagawa.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {
+            transparent = false, -- Set to true if you want transparent backgrounds
+        },
     },
     { "lervag/vimtex", lazy = false },
 	{
 		'nvim-telescope/telescope.nvim', 
-		tag = '0.1.5',
+        version="*",
 		dependencies = { {'nvim-lua/plenary.nvim'}}
     },
     {

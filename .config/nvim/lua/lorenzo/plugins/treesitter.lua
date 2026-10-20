@@ -18,7 +18,6 @@ return {
         "vim",
         "python",
         "markdown",
-        "prolog",
         "go"
       },
       callback = function()
