@@ -1,7 +1,6 @@
 alias vim='nvim'
 alias draw='open http://excalidraw.com'
 alias ls='ls --color=auto'
-eval "$(direnv hook zsh)"
 
 
 setopt HIST_IGNORE_ALL_DUPS

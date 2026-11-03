@@ -1,9 +1,12 @@
 # This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = Lorenzo Ramirez
 	email = lorenzoramirez.lrc@gmail.com
 [core]
 	editor = nvim
 [init]
-	defaultbranch = main
+    defaultbranch = main
+[pull]
+    rebase = true
+[fetch]
+    prune = true

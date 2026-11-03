@@ -20,7 +20,7 @@ local plugins = {
         lazy = false,
         priority = 1000,
         opts = {
-            transparent = false, -- Set to true if you want transparent backgrounds
+            transparent = true, -- Set to true if you want transparent backgrounds
         },
     },
     { "lervag/vimtex", lazy = false },
