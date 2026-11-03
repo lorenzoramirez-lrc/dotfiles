@@ -7,6 +7,6 @@
 [init]
     defaultbranch = main
 [pull]
-    rebase = true
+    rebase = false
 [fetch]
     prune = true
