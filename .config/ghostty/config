@@ -1,0 +1,55 @@
+
+# ==========================================
+# Appearance
+# ==========================================
+
+theme = Kanagawa Dragon
+
+font-family = JetBrainsMono Nerd Font
+font-size = 18
+
+background-opacity = 0.96
+background-blur = false
+
+window-padding-x = 12
+window-padding-y = 10
+
+window-decoration = auto
+window-theme = dark
+
+# ==========================================
+# Behavior
+# ==========================================
+
+shell-integration = zsh
+copy-on-select = clipboard
+confirm-close-surface = true
+
+scrollback-limit = 10000
+
+# Inherit working directory
+window-inherit-working-directory = true
+tab-inherit-working-directory = true
+split-inherit-working-directory = true
+
+# ==========================================
+# Keybindings
+# ==========================================
+
+
+# Tabs
+keybind = super+t=new_tab
+keybind = super+w=close_surface
+keybind = super+shift+right=next_tab
+keybind = super+shift+left=previous_tab
+
+# Reload configuration
+keybind = super+shift+comma=reload_config
+
+
+# ==========================================
+# Window
+# ==========================================
+
+maximize = true
+
