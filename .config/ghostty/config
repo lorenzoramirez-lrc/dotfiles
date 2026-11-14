@@ -7,6 +7,9 @@ theme = Kanagawa Dragon
 
 font-family = JetBrainsMono Nerd Font
 font-size = 18
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
 
 background-opacity = 0.96
 background-blur = false
